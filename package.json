@@ -1,6 +1,6 @@
 {
   "name": "gestalten",
-  "version": "0.0.0",
+  "version": "0.1.0",
   "description": "This is a very specific configuration wherein options are globalize. Based from the German word synonym for configure.",
   "main": "gestalten.js",
   "scripts": {

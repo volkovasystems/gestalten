@@ -6,7 +6,9 @@ var gestalten = function gestalten( options ){
         if( OPTION_PATTERN.test( option ) ){
             command = option.match( OPTION_PATTERN )[ 1 ];
 
-            gestalten( global[ command ]( options[ option ] ) );
+            command = ( global[ command ] || module[ command ] );
+
+            gestalten( command( options[ option ] ) );
 
         }else{
             global[ option ] = options[ option ];
