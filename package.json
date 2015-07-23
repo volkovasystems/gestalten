@@ -1,0 +1,24 @@
+{
+  "name": "gestalten",
+  "version": "0.0.0",
+  "description": "This is a very specific configuration wherein options are globalize. Based from the German word synonym for configure.",
+  "main": "gestalten.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/volkovasystems/gestalten.git"
+  },
+  "keywords": [
+    "configure",
+    "globalize"
+  ],
+  "author": "Richeve S. Bebedor <richeve.bebedor@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/volkovasystems/gestalten/issues"
+  },
+  "homepage": "https://github.com/volkovasystems/gestalten#readme",
+  "dependencies": {}
+}
